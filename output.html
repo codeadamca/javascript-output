@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Creating Output</title>
+    
+</head>
+<body>
+    
+    <h1>Using document.write</h1>
+
+    <p>The document.write() function adds content to the current HTML document.</p>
+
+    <script>
+    
+    document.write( "<h1>Creating Output</h1>" );
+    document.write( "<p>Quotes an cause conflicts with creating output." + " " + 
+        "To resolve quote issues there are three solutions:</p>" );
+    document.write( "<ul>" + 
+        "<li>Escape them with a slash</li>" + 
+        "<li>Use alternating quotes</li>" + 
+        "<li>Use special characters</li>" + 
+        "</ul>" );
+
+    </script>
+
+    <h1>Using console.log</h1>
+    
+    <p>The console.log() function allows you to send data to the browser for testing purposes
+        without interrupting the website.</p>
+
+    <script>
+    
+    alert( "This is an alert message" );
+    
+    console.log( "This is a console log" );
+
+    </script>
+    
+</body>
+</html>
