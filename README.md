@@ -55,6 +55,68 @@ To test the `console.log` line of code, follow these steps:
 3. Open the `output.html` file
 4. The message in the `console.log` command will be displayed
 
+## Trying it Out
+
+Create an HTML file and add the following code:
+
+```html
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Creating Output</title>
+    </head>
+    <body>
+        
+        <h1>W3Schools</h1>
+
+        <p>W3Schools is a web developer information website, with tutorials
+            and references relating to web development topics such as HTML, CSS,
+            JavaScript and PHP.</p>
+
+        <a href="http://www.w3schools.com/">W3Schools</a>
+
+        <br>
+
+        <img src="http://www.w3schools.com/images/w3schools.png">
+
+    </body>
+</html>
+```
+
+Convert each line of HTML in the `body` section to use JavaScript and `document.write()`. For example, converting the `h1` element could look like this:
+
+```html
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Creating Output</title>
+    </head>
+    <body>
+
+        <script>
+
+        document.write("<h1>W3Schools</h1>");
+
+        </script>
+
+        <p>W3Schools is a web developer information website, with tutorials
+            and references relating to web development topics such as HTML, CSS,
+            JavaScript and PHP.</p>
+
+        <a href="http://www.w3schools.com/">W3Schools</a>
+
+        <br>
+
+        <img src="http://www.w3schools.com/images/w3schools.png">
+
+    </body>
+</html>
+```
+
+When you have completed the goal, the `body` tag will only include one `script` tag and a number of `document.write()` commands. 
+
 ## Tutorial Requirements:
 
 * [Visual Studio Code](https://code.visualstudio.com/) or [Brackets](http://brackets.io/) (or any code editor)
