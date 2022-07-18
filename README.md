@@ -1,4 +1,4 @@
-# javascrpt-output
+# A Basic Introduction to JavaScript and Output
 
 JavaScript can be used to create output. This can be done many different ways:
 
