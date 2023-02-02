@@ -109,7 +109,7 @@ Convert each line of HTML in the `body` section to use JavaScript and `document.
 
         <br>
 
-        <img src="http://www.w3schools.com/images/w3schools.png">
+        <img src="w3schools.png">
 
     </body>
 </html>
