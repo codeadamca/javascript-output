@@ -78,7 +78,7 @@ Create an HTML file and add the following code:
 
         <br>
 
-        <img src="http://www.w3schools.com/images/w3schools.png">
+        <img src="w3schools.png">
 
     </body>
 </html>
