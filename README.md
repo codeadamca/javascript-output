@@ -117,11 +117,14 @@ Convert each line of HTML in the `body` section to use JavaScript and `document.
 
 When you have completed the goal, the `body` tag will only include one `script` tag and a number of `document.write()` commands. 
 
-## Tutorial Requirements:
+> Full tutorial URL:  
+> https://codeadam.ca/learning/javascript-output.html
 
-* [Visual Studio Code](https://code.visualstudio.com/) or [Brackets](http://brackets.io/) (or any code editor)
+***
 
-Full tutorial URL: https://codeadam.ca/learning/javascript-output.html
+## Repo Resourcecs
+
+* [Visual Studio Code](https://code.visualstudio.com/)
 
 <a href="https://codeadam.ca">
 <img src="https://codeadam.ca/images/code-block.png" width="100">
